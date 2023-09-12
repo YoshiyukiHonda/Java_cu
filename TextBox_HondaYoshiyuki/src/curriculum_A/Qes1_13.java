@@ -3,33 +3,63 @@ package curriculum_A;
 public class Qes1_13 {
 
 	public static void main(String[] args) {
+		// 問１ローカル変数として宣言
 		// バイト型
-		byte byteVar = 10;
+		byte byteVar;
 
 		// 短整数型
-		short shortVar = 100;
+		short shortVar;
 
 		// 整数型
-		int intVar = 1000;
+		int intVar;
 
 		// 長整数型
-		long longVar = 10000;
+		long longVar;
 
 		// 単精度浮動小数点数型
-		float floatVar = 9.5F;
+		float floatVar;
 
 		// 倍精度浮動小数点数型
-		double doubleVar = 10.5;
+		double doubleVar;
 
 		// 文字型
-		char charVar = 'a';
+		char charVar;
 
 		// 文字列型
-		String stringVar = "ハロー";
+		String stringVar;
 
 		// ブーリアン型
-		boolean booleanVar = true;
+		boolean booleanVar;
 
+		// 問２，問３ローカル変数を初期化し値の代入
+		// バイト型
+		byteVar = 10;
+
+		// 短整数型
+		shortVar = 100;
+
+		// 整数型
+		intVar = 1000;
+
+		// 長整数型
+		longVar = 10000;
+
+		// 単精度浮動小数点数型
+		floatVar = 9.5F;
+
+		// 倍精度浮動小数点数型
+		doubleVar = 10.5;
+
+		// 文字型
+		charVar = 'a';
+
+		// 文字列型
+		stringVar = "ハロー";
+
+		// ブーリアン型
+		booleanVar = true;
+
+		// 問４
 		System.out.println(byteVar + shortVar + intVar + longVar);
 
 		System.out.println(byteVar * 2);
