@@ -31,7 +31,35 @@ public class Qes1_13 {
 		// ブーリアン型
 		boolean booleanVar;
 
-		// 問２，問３ローカル変数を初期化し値の代入
+		// 問2ローカル変数の初期化
+		// バイト型
+		byteVar = 0;
+
+		// 短整数型
+		shortVar = 0;
+
+		// 整数型
+		intVar = 0;
+
+		// 長整数型
+		longVar = 0;
+
+		// 単精度浮動小数点数型
+		floatVar = 0.0F;
+
+		// 倍精度浮動小数点数型
+		doubleVar = 0.0;
+
+		// 文字型
+		charVar = '\u0000';
+
+		// 文字列型
+		stringVar = null;
+
+		// ブーリアン型
+		booleanVar = false;
+
+		// 問３ローカル変数に値の代入
 		// バイト型
 		byteVar = 10;
 
