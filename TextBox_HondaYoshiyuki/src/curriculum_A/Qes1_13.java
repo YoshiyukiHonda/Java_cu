@@ -90,7 +90,7 @@ public class Qes1_13 {
 		// 問４
 		System.out.println(byteVar + shortVar + intVar + longVar);
 
-		System.out.println(byteVar * 2);
+		System.out.println(byteVar + byteVar);
 
 		System.out.println(charVar + stringVar + booleanVar);
 
@@ -204,17 +204,7 @@ public class Qes1_13 {
 
 		String weight1 = String.valueOf(weight);
 
-		String myage = "年齢は" + age1 + "歳です";
-
-		String myheight = "身長は" + height1 + "ｃｍです";
-
-		String myweight = "体重は" + weight1 + "kgです";
-
-		System.out.println(myage);
-
-		System.out.println(myheight);
-
-		System.out.println(myweight + "\n");
+		System.out.println(age1 + height1 + weight1 + "\n");
 
 		// 問12 年齢・身長を文字列型から整数型に変換		
 		int numage = Integer.parseInt(age1);
