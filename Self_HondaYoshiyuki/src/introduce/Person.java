@@ -48,4 +48,10 @@ public class Person {
 		System.out.println("合計" + count + "人です");
 	}
 
+	// 合計人数を取得する静的メソッド
+	static int getTotalCount() {
+		// 合計人数を返す
+		return count;
+	}
+
 }

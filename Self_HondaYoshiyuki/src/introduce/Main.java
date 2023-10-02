@@ -17,5 +17,9 @@ public class Main {
 
 		// インスタンスの総数を表示
 		Person.printCount();
+
+		System.out.println("\n合計" + Person.getTotalCount() + "人です");
+
 	}
+
 }
