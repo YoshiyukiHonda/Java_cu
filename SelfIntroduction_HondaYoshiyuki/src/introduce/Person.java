@@ -41,11 +41,12 @@ public class Person {
 		// 名前を表示
 		System.out.println("名前は、" + this.name + "です");
 
-		// 年齢を表示
-		System.out.println("年は、" + this.age + "歳です");
-
 		// BMIを表示
-		System.out.println("BMIは、" + String.format("%.1f", this.bmi()) + "です\n");
+		System.out.println("BMIは、" + Math.floor(this.bmi()) + "です");
+
+		// 年齢を表示
+		System.out.println("年は、" + this.age + "歳です\n");
+
 	}
 
 	// クラスメソッド（人数の合計を取得）

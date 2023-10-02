@@ -13,4 +13,5 @@ public class Main {
 		// クラスメソッドを呼び出して合計人数を表示
 		Person.printTotalPersons();
 	}
+
 }
