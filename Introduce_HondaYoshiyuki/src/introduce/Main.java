@@ -3,7 +3,7 @@ package introduce;
 public class Main {
 
 	public static void main(String[] args) {
-		Person person1 = new Person("本田", "嘉章", 31, 1.6, 60);
+		Person person1 = new Person("鈴木", "太郎", 20, 1.7, 60);
 		Person person2 = new Person("山田", "花子", 22, 1.5, 40);
 
 		// インスタンスの情報を出力
@@ -17,6 +17,10 @@ public class Main {
 		//ownerを設定
 		car.setOwner(person1.fullName());
 		bicycle.setOwner(person2.fullName());
+
+		// ownerをコンソールに出力
+		System.out.println(car.getOwner());
+		System.out.println(bicycle.getOwner());
 
 		// 乗り物を購入
 		person1.buy(car);
